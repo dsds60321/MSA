@@ -32,3 +32,15 @@ public interface StoreClient {
     List<Store>getStores();
 }
 ~~~
+### Ribbon
+* client side Load Balancer
+* 비동기를 사용하는 기술과 호환이 안되어 최근에는 잘 사용하지 않음
+* 서비스 이름으로 호출 가능
+* 헬스 체크 : 서비스가 정상적으로 작동중인지 확인
+* Spring Boot 2.4 Maintenance
+
+### Netflix Zuul
+* 역활
+  * Routing
+  * API gateway
+* Spring Boot 2.4 Maintenance
